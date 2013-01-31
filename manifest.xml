@@ -1,0 +1,20 @@
+<package>
+  <description brief="peis_ros">
+     peis_ros tries to connect PEIS to ROS.
+  </description>
+  <author>Ben Adler</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/peis_ros</url>
+  <depend package="roscpp"/>
+  <depend package="tf"/>
+  <depend package="roslib"/>
+  <depend package="std_msgs"/>
+  <depend package="pr2_msgs"/>
+  <depend package="geometry_msgs"/>
+  <depend package="move_base_msgs"/>
+  <depend package="actionlib"/>
+  <depend package="cognidrive_ros"/>
+  <depend package="actionlib_msgs"/>
+  <rosdep name="libtclap-dev"/>
+</package>
